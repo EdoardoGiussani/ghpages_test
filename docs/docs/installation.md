@@ -1,59 +1,38 @@
 ---
 title: Installation
 layout: default
+nav_order: 2
 ---
 
 # FluMut
 FluMut is a CLI tool, if you prefer a graphical interface see [FluMut-GUI](#flumut-gui) installation
 
 ## Pip
-FluMut is available on [PyPI](https://pypi.org/flumut).
-Before installing FluMut via Pip you'll need:
+FluMut is available on [PyPI](https://pypi.org/flumutTODO).
+Before installing FluMut via Pip you need:
 - [Python](https://www.python.org/downloads/)
-- [Pip](https://pypi.org/project/pip/)
+- [Pip](https://pypi.org/project/pip/) (often packed with Python)
 
-You can install it with this simple command:
+Then, you can install FluMut with this simple command:
 ```
 pip install flumut
 ```
 
 ## Bioconda
-FluMut is also available on [Bioconda](https://bioconda.github.io/).
-You can install using Conda or Mamba:
+FluMut is also available on [Bioconda](https://bioconda.github.io/TODO).
+You can install using Conda or Mamba.
+- [Mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) (recommended)
+```
+mamba install -c bioconda flumut
+```
+- [Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 ```
 conda install -c bioconda flumut
-mamba install -c bioconda flumut
 ```
 
 # FluMut-GUI
 
-## Executables:
-This is the fastest way to use FluMut-GUI.
-Download the compiled version for your SO and just double click on it:
+Download the compiled version for your OS and just double click on it:
 - [Windows](TODO)
 - [MacOS](TODO)
 - [Linux](TODO)
-
-## Pip
-FluMut is available on [PyPI](https://pypi.org/flumut).
-Before installing FluMut via Pip you'll need:
-- [Python](https://www.python.org/downloads/)
-- [Pip](https://pypi.org/project/pip/)
-
-You can install it with this simple command:
-```
-pip install flumut-gui
-```
-and run it with:
-```
-flumut-gui
-```
-
-<!-- Probably nosense -->
-<!-- ## Bioconda
-FluMut is also available on [Bioconda](https://bioconda.github.io/).
-You can install using Conda or Mamba:
-```
-conda install -c bioconda flumut-gui
-mamba install -c bioconda flumut-gui
-``` -->
