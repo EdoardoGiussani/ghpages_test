@@ -2,6 +2,7 @@
 title: Home
 layout: home
 nav_order: 1
+permalink: /
 ---
 
 FluMut is an open-source tool designed to search for molecular markers with potential impact on the biological characteristics of Influenza A viruses of the A(H5N1) subtype, starting from complete or partial nucleotide genome sequences.
@@ -20,6 +21,6 @@ For each marker identified within the submitted sequences, the tool provides inf
 - the influenza subtype in which the marker was observed or tested
 - the corresponding bibliographic references.
 
-In addition, the tool generates an Excel workbook for a better visualisation of the results, as described in the [outputs section](docs/outputs.md#TODO).
+In addition, the tool generates an Excel workbook for a better visualisation of the results, as described in the [outputs section](docs/output#excel-output).
 
 The FluMut functionality will be soon extended to all influenza A subtypes.

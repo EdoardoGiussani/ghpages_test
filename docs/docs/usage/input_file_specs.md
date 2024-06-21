@@ -3,6 +3,7 @@ title: Input file
 layout: default
 parent: Usage
 nav_order: 3
+permalink: docs/usage/input-file
 ---
 
 # Input File
@@ -15,6 +16,7 @@ For this reason, the header must contain both a sample ID (consistent among sequ
 
 By default, the tool expects the sample ID followed by an underscore and the segment name (e.g. `my_sample_PB2`). FluMut-GUI works only with this FASTA header structure.
 
+# Custom FASTA header parsing
 If your sequences have a different FASTA header composition, you can use the option `--name-regex`.
 This works with Python regular expressions, using a first capture group to find the sample and a second capture group to find the segment.
 Here we provide some examples with most common cases:

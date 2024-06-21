@@ -5,4 +5,10 @@ theme: just-the-docs
 url: https://github.com/EdoardoGiussani/ghpages_test/FluMut
 
 aux_links:
-  FluMut Repository: https://github.com/EdoardoGiussani/ghpages_test
+  FluMut Repository: https://github.com/izsvenezie-virology/FluMut
+  FluMutDB Repository: https://github.com/izsvenezie-virology/FluMutDB
+
+callouts:
+  note:
+    title: Note
+    color: blue

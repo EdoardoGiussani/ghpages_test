@@ -3,10 +3,11 @@ title: GUI usage
 layout: default
 parent: Usage
 nav_order: 2
+permalink: docs/usage/usage-gui
 ---
 TODO
 # Basic Usage
-You can get the output file in an [Excel format](TODO) (user-friendly) running:
+You can get the output file in an [Excel format] (user-friendly) running:
 ```
 flumut -x excel_output.xlsm your_fasta.fa
 ```
